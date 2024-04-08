@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #222;
+  color: white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+padding: 10px;
+min-width: 300px;
+border-radius: 20px;
+}
+.top,.middle,.bottom{
+  padding: 20px;
+  display: flex;
+justify-content: center;
+
+}
+.top{
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#invalid{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  display: none;
+}
+.top input{
+padding: 5px 10px;
+outline: none;
+border: none;
+
+}
+.top form{
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 15px;
+
+  
+
+}
+.top form button{
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.middle .img img{
+  width: 150px;
+}
+.middle h2{
+  font-size: 36px;
+}
+.middle h3{
+  font-size: 25px;
+}
+.bottom{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+
+}
+.bottom img{
+  width: 50px;
+}
+.left,.right{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#percentage,#windspeed{
+  font-size: 25px;
+}
+.weather{
+  display: none;
+}
+#result{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
